@@ -102,7 +102,7 @@
                   </g>
                 </svg>
               </span>
-              <span class="app-brand-text demo menu-text fw-bold ms-2">Hannan Store</span>
+              <span class="app-brand-text demo menu-text fw-bold ms-2">XSO FARM</span>
             </a>
 
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -220,7 +220,7 @@
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
                   <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                     <div class="avatar avatar-online">
-                      <img src="{{asset('back/assets/img/avatars/1.png')}}" alt class="w-px-40 h-auto rounded-circle" />
+                      <img src="{{asset('back/assets/img/avatars/logo.jpeg')}}" alt class="w-px-40 h-auto rounded-circle" />
                     </div>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end">
@@ -229,7 +229,7 @@
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="{{asset('back/assets/img/avatars/1.png')}}" alt class="w-px-40 h-auto rounded-circle" />
+                              <img src="{{asset('back/assets/img/avatars/logo.jpeg')}}" alt class="w-px-40 h-auto rounded-circle" />
                             </div>
                           </div>
                           <div class="flex-grow-1">
