@@ -11,7 +11,7 @@
         <div class="row">
             <div class="card p-4 w-100" style="max-width: 500px;">
                 <div class="text-center mb-4">
-                    <h1>E-Hannan</h1>
+                    <h1>XS0-Farm</h1>
                 </div>
                 <div class="text-center mb-3">
                     <p>Thank you for your purchase! Below are the details of your order.</p>
@@ -41,7 +41,7 @@
                 <div class="text-center mt-4">
                     @php
                         $message = urlencode(
-                            "Halo admin, \n\n Saya telah membeli produk di E-Hannan. \n\n Invoice: #".$data['dataPurchase']['order_number']. "\n\n Total: Rp. ". number_format($data['dataPurchase']['total_amount'], 0, ',', '.')."\n\n Mohon untuk diperiksa dan berikut lampiran pembayaran saya. \n\n"
+                            "Halo admin, \n\n Saya telah membeli produk di XSO-Farm. \n\n Invoice: #".$data['dataPurchase']['order_number']. "\n\n Total: Rp. ". number_format($data['dataPurchase']['total_amount'], 0, ',', '.')."\n\n Mohon untuk diperiksa dan berikut lampiran pembayaran saya. \n\n"
                         );
                     @endphp
                     <a href="https://wa.me/+6282122210770?text={{ $message }}" class="btn btn-success" target="_blank">Confirmation WhatsApp</a>
